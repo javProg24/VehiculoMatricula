@@ -10,6 +10,4 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Auto extends Vehiculo{
-    private double monto=200;
-    private double avaluo=0.1;
 }
