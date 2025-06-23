@@ -12,10 +12,10 @@ public class ControladorDueno {
     }
 
     public boolean registrarDueno(Persona p) {
-        if (duenios.containsKey(p.getCedula())) {
+        if (duenios.containsKey(p.getCedula())) { // Sirve para verificar si el dueño ya existe
             return false;
         }
-        duenios.put(p.getCedula(), p);
+        duenios.put(p.getCedula(), p); // Agrega el dueño al mapa
         return true;
     }
 

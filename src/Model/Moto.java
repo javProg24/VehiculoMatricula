@@ -1,13 +1,10 @@
 package Model;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
-@AllArgsConstructor
-@NoArgsConstructor
-@Getter
-@Setter
 public class Moto extends Vehiculo{
+    public Moto() {
+        super();
+    }
+    public Moto(String placa, String marca, String modelo, int anio, Persona dueno) {
+        super(placa, marca, modelo, anio, dueno);
+    }
 }
